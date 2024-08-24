@@ -1,0 +1,120 @@
+div{
+    background-color: rgb(203, 218, 212);
+    height: 680px;
+}
+.head{
+    margin-left: 300px;
+}
+.head1{
+    margin-left:800px;
+    position: absolute;
+    z-index: 2;
+    margin-bottom: -40px;
+    margin-top: -590px;
+    text-shadow: 4px 3px 2px grey;
+}
+.img1{
+    margin-left: 730px;
+    margin-bottom: -60px;
+    position: absolute;
+    z-index: 3;
+    margin-top: -600px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 100px;
+    margin-left: 200px; 
+    height: 600px;
+    width: 750px;
+    background-color: white;
+    position: relative;
+    bottom: 1285px;
+    z-index: 1;
+}
+.paris{
+    position: relative;
+    bottom: 20px;
+    left: -30px;
+    border: 2px solid black;
+    height: 230px;
+    width: 190px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 8px;
+}
+.paris:hover{
+    box-shadow: 5px 8px 8px 5px rgb(168, 148, 187);
+    transform: rotate(10deg);
+}
+
+.to-do{
+    position: relative;
+    bottom: 29px;
+    left: -20px;
+    border: 2px solid black;
+    height: 230px;
+    width: 190px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 10px;
+    border-radius: 8px;
+}
+.to-do:hover{
+    box-shadow: 5px 8px 8px 5px rgb(168, 148, 187);
+    transform: rotate(-10deg);
+}
+
+.movies{
+    position: relative;
+    bottom: 25px;
+    margin: 5px;
+    left: 20px;
+    border: 2px solid black;
+    height: 230px;
+    width: 145px;
+    padding-left: 40px;
+    padding-right:40px;
+    border-radius: 8px;
+}
+.movies:hover{
+    box-shadow: 5px 8px 8px 5px rgb(168, 148, 187);
+    transform: rotate(20deg);
+}
+
+.routine{
+    margin-left: 40px;
+    position: relative;
+    bottom: 40px;
+    left: -70px;
+    border: 2px solid black;
+    height: 230px;
+    width: 190px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 8px;
+}
+.routine:hover{
+    box-shadow: 5px 8px 8px 5px rgb(168, 148, 187);
+    transform: rotate(10deg);
+}
+.books{
+    position: relative;
+    bottom: 40px;
+    left: -28px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 20px;
+    border: 2px solid black;
+    height: 230px;
+    width: 190;
+    border-radius: 8px;
+}
+.books:hover{
+    box-shadow: 5px 8px 8px 5px rgb(168, 148, 187);
+    transform: rotate(-10deg);
+}
+h2{
+    color: blueviolet;
+}
